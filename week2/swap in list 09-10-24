@@ -1,0 +1,6 @@
+a=[12,5,3,'lemon','berries']
+temp=a[0]
+a[0]=a[-1]
+a[-1]=temp
+print("New list is:")
+print(a)
