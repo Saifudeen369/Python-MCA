@@ -1,0 +1,16 @@
+
+my_list = [34, 12, 5, 67, 23, 89]
+
+max_value = max(my_list)
+min_value = min(my_list)
+
+
+sorted_ascending = sorted(my_list)
+
+
+sorted_descending = sorted(my_list, reverse=True)
+
+print("Max value:", max_value)
+print("Min value:", min_value)
+print("Sorted in ascending order:", sorted_ascending)
+print("Sorted in descending order:", sorted_descending)
